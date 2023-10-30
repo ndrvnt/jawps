@@ -50,6 +50,11 @@ esempio:
 const UTENTI = ['Username1', 'Username2', 'Username3', 'Username4'];
 ```
 
+## ICONA
+
+In **www/logo.png** sostituitela con la vostra icona, ovvero l'immagine che accompagna la notifica.
+Se cambiate nome ricordatevi di aggiornare il file **www/worker.js**
+
 ## UTENTI
 
 Il file **storage.json** conterrá tutti gli utenti che sottoscriveranno il servizio di notifica.

@@ -40,7 +40,7 @@ apps.post('/unsubscribe', (req, res) => {
   res.status(201).json({});
 })
 
-//catturo l'evento e invio le notifiche a chi si e' registrato
+//catturo l'evento e invio le notifiche a chi si é registrato
 GE.on("INVIANOTIFICA", (dati) => {
   console.log(dati)
   let all = db.JSON();
