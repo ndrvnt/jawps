@@ -45,7 +45,7 @@ GE.on("INVIANOTIFICA", (dati) => {
   console.log(dati)
   let all = db.JSON();
   Object.keys(all).forEach(user => {
-    const payload = JSON.stringify({ title: dati.titolo, body: dati.corpo, icon: "kenobit-logo.png", url: dati.url });
+    const payload = JSON.stringify({ title: dati.titolo, body: dati.corpo, icon: "logo.png", url: dati.url });
     webpush.sendNotification(all[user], payload).catch(console.log);
   })
 })
