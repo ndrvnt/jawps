@@ -4,7 +4,7 @@ self.addEventListener('push', function (e) {
   self.registration.showNotification(
     data.title,
     {
-      body: data.url,
+      body: data.body,
       icon: "/logo.png" //icona della notifica
     }
   );
